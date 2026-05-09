@@ -1,1 +1,1 @@
-resource "aws_db_instance" "main" { identifier = "webapp-db-${var.environment}"; engine = "postgres"; instance_class = "db.t3.medium"; allocated_storage = 50; username = "admin"; password = "changeme"; skip_final_snapshot = true }
+resource "aws_db_instance" "main" { identifier = "webapp-db-staging"; engine = "postgres"; instance_class = "db.t3.small"; allocated_storage = 20; username = "admin"; password = "stagingpass"; skip_final_snapshot = true }
