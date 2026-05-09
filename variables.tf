@@ -1,2 +1,2 @@
 variable "aws_region" { default = "eu-west-1" }
-variable "environment" { default = "prod" }
+variable "environment" { default = "dev" }
